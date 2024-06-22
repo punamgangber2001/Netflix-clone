@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#netflix-hero-section{
+  height: 100vh;
+  width: 100%;
+  background:linear-gradient(to top, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6)60%, rgba(0, 0, 0, 0.8)100%), url(./assetes/netflix-background-img.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#netflix-hero-nav{
+   height: 20%;
+   width: 100%;
+   /* background-color: black; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#netflix-hero-section>#netflix-hero-nav>.netflix-logo{
+      height: 50%;
+      width: 30%;
+      /* background-color: rgb(75, 61, 196); */
+      margin-left: 10%;
+}
+#netflix-hero-section>#netflix-hero-nav>.netflix-logo>img{
+      height: 59%;
+      width: 42%;
+      text-align: center;
+}
+
+#netflix-hero-section>#netflix-hero-nav>.netflix-two-button{
+      height: 50%;
+      width: 40%;
+      /* background-color: green; */
+}
+
+#netflix-hero-section>#netflix-hero-nav>.netflix-two-button>.lg-select{
+      height: 51%;
+      width: 24%;
+      background-color: black;
+      color: aliceblue;
+      border-radius: 5px;
+      border: 1px solid white;
+      margin-left: 27%;
+      margin-right: 3%;
+      cursor: pointer;
+}
+
+#netflix-hero-section>#netflix-hero-nav>.netflix-two-button>.sign-in{
+      height: 51%;
+      width: 16%;
+      background-color: red;
+      border-radius: 5px;
+      color: aliceblue;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+}
+
+#netflix-hero-section>#hero-tittle-card{
+      height: 45%;
+      width: 100%;
+      /* background-color: black; */
+      margin-top: 9%;
+}
+
+#netflix-hero-section>#hero-tittle-card>.hero-tittle-heading{
+      font-size:55px;
+      color: aliceblue;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+}
+
+#netflix-hero-section>#hero-tittle-card>.hero-subtittle{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: aliceblue;
+      font-size:x-large;
+      text-align: center;
+      margin-top: 1%;
+      margin-bottom: 2%;
+}
+#netflix-hero-section>#hero-tittle-card>.hero-text{
+      font-size: 23px;
+      color: aliceblue;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: 1%;
+      margin-bottom: 1%;
+}
+#netflix-hero-section>#hero-tittle-card>input{
+    height: 20%;
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 26%;
+    /* margin-top: 3%; */
+    background:linear-gradient( rgba(0, 0, 0, 0.6)60%, rgba(0, 0, 0, 0.6)100%);
+    font-size: 100%;
+    color: rgb(235, 235, 235);
+    /* font-weight:bold; */
+     border: 1px solid rgb(160, 160, 160);
+}
+#netflix-hero-section>#hero-tittle-card>.get-stared{
+      height: 20%;
+      width: 16%;
+      font-size: 23px;
+      font-weight: 600;
+      background-color: red;
+      color:antiquewhite;
+      border: 1px solid red;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+#netflix-hero-section>#hero-tittle-card>.get-stared>i{
+      font-size: 90%;
+      margin-left: 5px;
+  }
+/* ------------------------------------------------------ */
+
+#netflix-tv{
+   height: 80vh;
+   width: 100%;
+   background-color: black;
+   display: flex;
+}
+
+#netflix-tv>.enjoy-your-tv{
+      height: 100%;
+      width: 50%;
+      /* background-color: rgb(219, 53, 53); */
+      text-align: center;
+}
+#netflix-tv>.enjoy-your-tv>h1{
+      font-size: 50px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      margin-top: 19%;
+      /* padding-left: 25%;  */
+      /* padding-bottom: 1%; */
+}
+#netflix-tv>.enjoy-your-tv>p{
+      color: aliceblue;
+      font-size: 25px;
+      padding-left: 23%;
+      padding-right: 11%;
+      padding-top: 2%; 
+}
+#netflix-tv>.enjoy-your-tv-add{
+      height: 100%;
+      width: 50%;
+      background-color: black; 
+}
+#netflix-tv>.enjoy-your-tv-add>video{
+      height: 34%;
+      width: 27%;
+      position: absolute;
+      right: 18%;
+      top: 117%;
+}
+#netflix-tv>.enjoy-your-tv-add>img{
+      height: 74%;
+      width: 75%;
+      margin-top: 5%; 
+      z-index: -1;
+} 
+
+/* ------------------------------------------------------ */
+
+#netflix-tv-show{
+      height: 80vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+   }
+   
+   #netflix-tv-show>.download-your-show-add{
+         height: 100%;
+         width: 50%;
+         background-color: black;
+   }
+   #netflix-tv-show>.download-your-show-add>.box{
+      height: 20%;
+      width: 52%;
+      border: 2px solid gray;
+      background-color: black;
+      border-radius: 10px;
+      position: relative;
+      left: 34%;
+      bottom: 27%;
+   }
+   #netflix-tv-show>.download-your-show-add>.box>img{
+      height: 100%;
+      padding: 3%;
+   }
+   #netflix-tv-show>.download-your-show-add>.box>h1{
+      color: aliceblue;
+      font-size:15px;
+      font-family:monospace;
+      position: relative;
+      left: 25%;
+      bottom: 75%;
+   }
+   #netflix-tv-show>.download-your-show-add>.box>p{
+      color: blue;
+      font-size:15px;
+      font-family:monospace;
+      position: relative;
+      left: 25%;
+      bottom: 75%;
+   }
+   #netflix-tv-show>.download-your-show-add>img{
+      height: 90%;
+      width: 80%;
+      margin-left: 10%;
+      position: relative;
+      left: 9%;
+   }
+ 
+   #netflix-tv-show>.download-your-show{
+         height: 100%;
+         width: 50%;
+         background-color: black;
+   }
+   #netflix-tv-show>.download-your-show>h1{
+      font-size: 50px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      margin-top: 14%;
+      padding-left: 5%;
+      padding-right: 35%;
+      /* padding-bottom: 1%; */
+   }
+   #netflix-tv-show>.download-your-show>p{
+      font-size: 25px;
+      /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+      color: white;
+      margin-top: 14%;
+      padding-left: 5%;
+      padding-right: 35%;
+      position: relative;
+      bottom: 17%;
+
+   }
+ 
+
+   /* --------------------------------------------------------------------- */
+
+   #netflix-tv-watch-everwhere{
+      height: 80vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+   }
+   #netflix-tv-watch-everwhere>.watch-everywhere{
+      height: 100%;
+      width: 50%;
+      /* background-color: rgb(82, 35, 158); */
+   }
+   #netflix-tv-watch-everwhere>.watch-everywhere>h1{
+      color: aliceblue;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:50px;
+      margin-top: 19%; 
+      padding-left: 23%; 
+      padding-bottom: 1%;
+   }
+   #netflix-tv-watch-everwhere>.watch-everywhere>p{
+      color: aliceblue;
+      /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+      font-size: 25px;
+      padding-left: 23%;
+      padding-right: 5%;
+       padding-top: 2%; 
+   }
+   
+   #netflix-tv-watch-everwhere>.watch-everywhere-add{
+      height: 100%;
+      width: 50%;
+      background-color: rgb(22, 22, 22);
+   }
+   #netflix-tv-watch-everwhere>.watch-everywhere-add>img{
+      height: 75%;
+      width: 79%;
+      margin-left: 10%;
+      position: relative;
+      right: 15%;
+      top: 20%;
+      z-index: 1;
+   }
+   #netflix-tv-watch-everwhere>.watch-everywhere-add>video{
+      height: 32%;
+      width: 24%;
+      position: absolute;
+      right: 21%;
+      top: 281% ;
+   }
+
+   /* ---------------------------------------------------------------------------------- */
+
+   #netflix-animation{
+      height: 80vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+   }
+   #netflix-animation>.watch-for-kids-add{
+      height: 100%;
+      width: 50%;
+      background-color: black;
+   }
+   #netflix-animation>.watch-for-kids-add>img{
+      height: 70%;
+      width: 80%;
+      margin-left: 20%;
+      margin-top: 10%;
+   }
+   #netflix-animation>.watch-for-kids{
+      height: 100%;
+      width: 50%;
+      background-color: black ;
+   }
+   #netflix-animation>.watch-for-kids>h1{
+      color: aliceblue;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:50px;
+      margin-top: 19%;
+      padding-right: 35%;
+   }
+   #netflix-animation>.watch-for-kids>p{
+      font-size: 25px;
+      /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+      color: white;
+      margin-right: 14%;
+      margin-top: 2%;
+   }
+
+   /* ----------------------------------------------------------------------------------------- */
+    #netflix-ask-question{
+      height: 120vh;
+      width: 100%;
+      background-color: rgb(56, 54, 54);
+   }
+   #netflix-ask-question>h1{
+      color: aliceblue;
+      text-align: center;
+      padding-top: 5%;
+      font-size: 48px; 
+   } 
+  /* #box{
+      height: 87vh;
+      width: 80vw;
+      background-color: rgb(55, 55, 56);
+      margin-top: 2%;
+      margin-left: 10%;
+   
+   }
+   #accordionExample>.accordion-item{
+      height: 13vh;
+      margin-top: 1%;
+      background-color: rgb(19, 18, 18);
+   } */
+
+   #netflix-ask-question>article>.questions>a{
+      height: 14vh;
+      width: 80%;
+      background-color:rgb(105, 104, 104);
+      margin:15px;
+      padding: 25px;
+      font-size: 35px;
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+  }
+
+  #netflix-ask-question>article{
+   margin-left: 10%;
+  }
+
+  /* --------------------------------------footer---------------------------------- */
+
+  #footer{
+   height: 100vh;
+   width: 100%;
+   background-color: black;
+}
+#footer>article{
+   display: flex;
+   justify-content: center;
+}
+#footer>article>.f{
+   height: 100vh;
+   width: 80%;
+   /* background-color: green; */
+}
+#footer>article>.f>p{
+  color: azure;
+  font-size: 22px;
+  font-weight: 600;
+}
+#footer>article>.f>input{
+   height: 10%;
+   width: 70%;
+   border: 1px solid whitesmoke;
+   border-radius: 8px;
+   background-color: black;
+   color: gray;
+   font-size: larger;
+   font-weight: 600;
+   padding: 10px ;
+}
+#footer>article>.f>#Started{
+   height: 10%;
+   width: 20%;
+   background-color: red;
+   color: aliceblue;
+   font-size: larger;
+   font-weight:bolder;
+   border: none;
+   border-radius: 5px;
+   margin: 20px 0px 10px 5px;
+}
+#footer>article>.f>.call{
+   height: 41vh;
+   width: 70%;
+   /* background-color: blue; */
+   margin-left:5%;
+   color: beige;
+   display: flex;
+   justify-content: space-between;
+}
+#footer>article>.f>div{
+   display: flex;
+   
+}
+#footer>article>.f>.x>h1{
+   font-size:20px;
+   margin-left: 5%;
+   color: azure;
+}
+#footer>article>.f>.x>a>p{ 
+   margin-left: 7px;
+   color: azure;
+   font-size: larger;
+   font-weight: 200;
+}
+#footer>article>.f>.call>.box1{
+   height:40vh;
+   width: 22%;
+   /* background-color: blueviolet; */
+}
+#footer>article>.f>.call>.box1>a>p{
+   color: wheat;
+   font-size:larger;
+   margin: 10px 0px 0px 0px;
+}
+#footer>article>.f>.call>.box2{
+   height:40vh;
+   width: 22%;
+   /* background-color: yellow; */
+}
+#footer>article>.f>.call>.box2>a>p{
+   color: wheat;
+   font-size:larger;
+   margin: 10px 0px 0px 0px;
+}
+#footer>article>.f>.call>.box3{
+   height:40vh;
+   width: 22%;
+   /* background-color: pink; */
+}
+#footer>article>.f>.call>.box3>a>p{
+   color: wheat;
+   font-size:larger;
+   margin: 10px 0px 0px 0px;
+}
+#footer>article>.f>#lang{
+   height: 40px;
+   width: 150px;
+   background-color: black;
+   color: aliceblue;
+   font-weight:bold;
+   font-size: larger;
+   border: 1px solid whitesmoke;
+   margin-left: 5%;
+}
+#footer>article>.f>#lang>i{
+   color: wheat;
+   margin-left: 10px;
+}
+#footer>article>.f>.netflix{
+   font-size: x-large;
+   font-size: medium;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-left:5% ;
+   margin-top: 5%;
+}
